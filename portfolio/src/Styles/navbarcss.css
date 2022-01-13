@@ -1,0 +1,13 @@
+.navbarcss {
+  background-color: white;
+  align-items: center;
+}
+.navbarcss a {
+  text-decoration: none;
+  color: #5271ff;
+  align-items: center;
+}
+
+.marginLeft {
+  margin-left: 275px;
+}
