@@ -1,7 +1,11 @@
-/* Lato Font */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-/* nautigal font */
+/* nautigal font -  font-family: 'The Nautigal', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+/* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+/* font-family: 'Luxurious Roman', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+/* font-family: 'Lobster', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
@@ -15,15 +19,16 @@ nav {
   display: flex;
   height: 80px;
   width: 100%;
-  background: #1b1b1b;
+  background: White;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
 }
 nav .logo {
+  font-family: 'Lobster', cursive;
   color: #5271ff;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 600;
 }
 nav ul {
@@ -35,9 +40,11 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #5271ff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   padding: 8px 15px;
   border-radius: 5px;
@@ -46,11 +53,11 @@ nav ul li a {
 }
 nav ul li a.active,
 nav ul li a:hover {
-  color: #111;
-  background: #fff;
+  color: white;
+  background: blue;
 }
 .menu-btn {
-  color: white;
+  color: #5271ff;
   font-size: 22px;
   cursor: pointer;
   display: none;
@@ -74,7 +81,7 @@ input[type='checkbox'] {
     position: fixed;
     top: 80px;
     left: -100%;
-    background: #111;
+    background: white;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -101,7 +108,7 @@ input[type='checkbox'] {
   nav ul li a.active,
   nav ul li a:hover {
     background: none;
-    color: cyan;
+    color: black;
   }
 }
 .content {
