@@ -19,15 +19,15 @@ nav {
   display: flex;
   height: 80px;
   width: 100%;
-  background: White;
+  background: #8cdce1;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px 0 100px;
+  padding: 0 50px 0 70px;
   flex-wrap: wrap;
 }
 nav .logo {
   font-family: 'Lobster', cursive;
-  color: #5271ff;
+  color: white;
   font-size: 28px;
   font-weight: 600;
 }
@@ -38,15 +38,16 @@ nav ul {
 }
 nav ul li {
   margin: 0 5px;
+  padding-top: 20px;
 }
 nav ul li a {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
-  color: #5271ff;
+  color: white;
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
-  padding: 8px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   letter-spacing: 1px;
   transition: all 0.3s ease;
